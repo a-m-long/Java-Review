@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.ArrayList;
 
-class DemoSort {
+class CollectionsAndComparatorSort {
 
 	public static void main(String[] args) {
 
@@ -25,6 +25,7 @@ class DemoSort {
 		
 		System.out.println("Sorting done by Collections.sort(): ");
 		Collections.sort(nameList);
+		//calling methods from the Collections CLASS 
 		System.out.println(nameList);
 		
 	    System.out.println();
@@ -35,6 +36,9 @@ class DemoSort {
  		
  		//Lambda Expression for sorting the list in Natural Order
  		Comparator<String> criteria = (str1, str2) -> str1.compareTo(str2);
+ 		//////////////////////////////////////////////////////////////////////
+ 		/////////////////////////////////////////////////////////////////////
+ 		/////////////////////////////////////////////////////////////////////
  		
  		System.out.println("Sorting done by list.sort() in Natural Order: ");
  		clonedNameList1.sort(criteria);

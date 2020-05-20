@@ -33,7 +33,6 @@ public class StringAndNumericManipulation {
         
         String bob = "Bobby";
         
-//        for ( int i=0; i <=bob.length(); i++) {
         	if (bob.length() > 3) {
         		String smallbob = bob.substring(0, 3);
         		System.out.println(smallbob);
@@ -41,10 +40,6 @@ public class StringAndNumericManipulation {
         		
         	}
         	
-//        }
-        
-      
-        
 	}
 	
 	
