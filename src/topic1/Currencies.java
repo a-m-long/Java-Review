@@ -12,8 +12,11 @@ public class Currencies {
         Scanner scanner = new Scanner(System.in);
         double payment = scanner.nextDouble();
         scanner.close();
-
+        
+      //this is done because Local.India doesn't exist 
         Locale indiaLocale = new Locale("en", "IN");
+        
+        
 
         /* Create NumberFormats using Locales */
         NumberFormat us     = NumberFormat.getCurrencyInstance(Locale.US);
